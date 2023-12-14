@@ -804,6 +804,9 @@ class DataAnalyzer:
 		plt.tight_layout()
 		plt.show()
 
+	def describe_data(self):
+		return self.data.describe().T
+
 	def describe_dropped_data(self):
 		return self.data_dropped.describe().T
 	
