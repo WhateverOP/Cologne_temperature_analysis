@@ -800,7 +800,7 @@ class DataAnalyzer:
 		ax.boxplot(self.data_dropped)
 		ax.set_xticklabels(list(self.data_dropped.keys())) 
 		plt.xticks(rotation=30)
-		plt.ylabel('mean T,'+u'\N{DEGREE SIGN}C')
+		plt.ylabel('T,'+u'\N{DEGREE SIGN}C')
 		plt.tight_layout()
 		plt.show()
 
